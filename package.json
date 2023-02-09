@@ -1,0 +1,36 @@
+{
+  "name": "metamask-auth",
+  "version": "1.0.0",
+  "description": "The simple module for web3 authentication via MetaMask",
+  "main": "dist/index.js",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx --package typescript tsc && tsc-alias"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvlvgg/metamask-auth.git"
+  },
+  "homepage": "https://github.com/kvlvgg/metamask-auth.git",
+  "keywords": [
+    "metamask",
+    "metamask-auth",
+    "web3"
+  ],
+  "author": "kvlvgg",
+  "license": "MIT",
+  "dependencies": {
+    "@metamask/onboarding": "^1.0.1",
+    "web3": "^1.8.2"
+  },
+  "devDependencies": {
+    "@metamask/providers": "^10.2.1",
+    "tsc-alias": "^1.8.2",
+    "typescript": "^4.9.5"
+  }
+}
