@@ -16,7 +16,10 @@
     "type": "git",
     "url": "git+https://github.com/kvlvgg/metamask-auth.git"
   },
-  "homepage": "https://github.com/kvlvgg/metamask-auth.git",
+  "bugs": {
+    "url": "https://github.com/kvlvgg/metamask-auth/issues"
+  },
+  "homepage": "https://github.com/kvlvgg/metamask-auth",
   "keywords": [
     "metamask",
     "metamask-auth",
