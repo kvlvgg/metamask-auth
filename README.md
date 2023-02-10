@@ -4,21 +4,23 @@ Simple module that eases Metamask authentication proccess
 
 ## Installation
 
-```npm install metamask-auth```
+`npm install @kvlvgg/metamask-auth`
 
 ## Usage
 
-```import { MetaMask, Onboarding, METAMASK_STATUSES, METAMASK_MESSAGES, METAMASK_ERRORS } from 'metamask-auth';```
+`import { MetaMask, Onboarding, METAMASK_STATUSES, METAMASK_MESSAGES, METAMASK_ERRORS } from 'metamask-auth';`
 
-MetaMask is an event-based class. You can subscribe on following ones:  
-1. status  
-2. message  
-3. error  
-4. connected  
-5. disconnected  
-6. signed  
+MetaMask is an event-based class. You can subscribe on following ones:
 
-For example, this is how I handle events in my vuex-store.  
+1. status
+2. message
+3. error
+4. connected
+5. disconnected
+6. signed
+
+For example, this is how I handle events in my vuex-store.
+
 ```
 const actions: ActionTree<ModuleState, RootState> = {
   [ACTIONS.START_ONBOARDING]() {
