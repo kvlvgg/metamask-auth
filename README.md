@@ -8,7 +8,7 @@ Simple module that eases Metamask authentication proccess
 
 ## Usage
 
-`import { MetaMask, Onboarding, METAMASK_STATUSES, METAMASK_MESSAGES, METAMASK_ERRORS } from 'metamask-auth';`
+`import { MetaMask, Onboarding, METAMASK_STATUSES, METAMASK_MESSAGES, METAMASK_ERRORS } from '@kvlvgg/metamask-auth';`
 
 MetaMask is an event-based class. You can subscribe on following ones:
 
